@@ -1,0 +1,22 @@
+import React from 'react'
+
+import './message.scss'
+
+const Message = () => {
+    const PF = process.env.REACT_APP_PUBLIC_FOLDER
+  return (
+    <div className='message'>
+          <div className='message__top'>
+              <img
+                className='message__img'
+                src={PF + 'person/noAvatar.png'}
+                alt='message__img'
+              />
+              <p className='message__text'>Hello this is a message</p>
+          </div>
+        <div className='message__bottom'>1 hour ago </div>  
+    </div>
+  )
+}
+
+export default Message

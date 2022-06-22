@@ -1,0 +1,20 @@
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message__top {
+    display: flex;
+}
+
+.message__img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.message__text {
+    
+}

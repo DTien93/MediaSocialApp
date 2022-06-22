@@ -1,0 +1,12 @@
+@import '../../scss/setting.scss';
+
+.topbar__container {
+    height: 50px;
+    width: 100%;
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}

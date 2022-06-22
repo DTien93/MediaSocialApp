@@ -1,0 +1,28 @@
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message__top {
+    display: flex;
+}
+
+.message__img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.message__text {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1877f2;
+    color: white;
+    max-width: 300px;
+}
+
+.message__bottom {
+    
+}

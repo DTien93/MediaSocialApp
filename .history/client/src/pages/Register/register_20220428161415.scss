@@ -1,0 +1,86 @@
+.Register {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Register__wrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+}
+
+.Register__left,
+.Register__right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Register__logo {
+    font-size: 50px;
+    font-weight: 800;
+    color: #1775ee;
+    margin-bottom: 10px;
+}
+
+.Register__desc {
+    font-size: 24px;
+}           
+
+.Register__box {
+    height: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Register__input {
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.Register__input:focus {
+    outline: none;
+}
+
+.Register__button {
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1775ee;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0 5px 5px;
+    cursor: pointer;
+}
+
+.Register__forgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.Register__register{
+    width: 60%;
+    align-self: center;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #42b72a;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
